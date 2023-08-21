@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Check The Number</title>
+        <link rel="stylesheet" href="game.css">
+    </head>
+        <body style="background-color: #254e58;">
+            <section>
+                <div style="border: 1px solid; border-radius: 20px; border-color: white; height: 300px; width: 600px; margin-left: 450px; margin-top: 120px; background-color: #c8d8e4; position: fixed;">
+                    <div>
+                        <p class="the_range">Guess a number from 0 to 25</p>
+                        <p class="larger_or" id="larger_or_smaller"></p>
+                        <input class="text_box" type="number" id="input" oninput="validate_range()">
+                        <button onclick="check_function()" class="check_button">Check</button>
+                        <p class="no_of_chances" id="chances">5 Chances remaining</p>
+                    </div>
+                </div>
+            </section>
+
+            <script src="game.js"></script>
+
+        </body>
+    
+</html>
