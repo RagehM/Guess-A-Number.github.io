@@ -1,0 +1,53 @@
+.main-div {
+    text-align: center;
+    border: 1px solid; 
+    width: 40%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 100px;
+    border-radius: 20px; 
+    border-color: white; 
+    height: 300px;  
+    background-color: #c8d8e4;
+}
+.the_range{
+    margin-top: 20px;
+    margin-bottom: 25px; 
+    font-size: 20px;
+    color: black;
+}
+.text_box{
+    padding: 5px 5px;
+    font-size: large;
+    text-align: center;
+    border-radius: 10px;
+    width: 90px;
+    height: 40px;
+    background-color: #f2f2f2;
+    margin-right: 30px;
+}
+.check_button{
+    border: none;
+    font-size: large;
+    border-radius: 10px;
+    width: 90px;
+    height: 51px;
+    background-color: #52ab98;
+    color: #ffffff;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.7s ease;
+}
+.check_button:hover{
+    background-color: #f2f2f2;
+    color: #52ab98;
+}
+.larger_or{
+    color: black;
+    font-size: 18px;
+}
+.no_of_chances{
+    font-size: 18px;
+    color: black;
+    margin-bottom: 20px;
+}
